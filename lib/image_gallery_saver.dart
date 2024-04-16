@@ -1,6 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter/services.dart';
+import 'dart:typed_data' show Uint8List;
+
+import 'package:flutter/services.dart' hide Uint8List;
 
 class ImageGallerySaver {
   static const MethodChannel _channel =
